@@ -1,0 +1,8 @@
+# dsh-doc-compare bundle patch.
+#
+# 插入本包自身：lib/index.js 是真正的 cordis 插件，加载后在 webServer 上挂
+# /dsh-doc-compare 出口（面板取版本号、徽章、比对接口）。
+
+- insert:
+    - id: doc-compare
+      name: '@deepwhale-cn/dsh-doc-compare'
